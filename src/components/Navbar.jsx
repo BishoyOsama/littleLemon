@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className='w-full mt-5 flex justify-between items-center px-5 lg:px-0'>
+        <nav className='w-full mt-5 flex justify-between items-center px-5 xl:px-0 mb-3'>
             <div className='logo'>
                 <img src={logo} alt="logo" className='w-full lg:w-56'/>
             </div>
