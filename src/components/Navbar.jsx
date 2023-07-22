@@ -46,13 +46,13 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <div className='flex lg:hidden flex-1 justify-end items-centers'>
+            <div className='flex lg:hidden flex-1 justify-end items-centers fixed inset-y-0 right-0'>
                 <img src={toggle? close : burgerMenu} alt="toggleMenu" 
-                className='w-[40px] h-[20px] object-contain z-10'
+                className='w-[40px] h-[20px] object-contain z-10 fixed top-7 right-1'
                 onClick={() => setToggle(prevToggle => !prevToggle)}/>
 
                 <div className={`${toggle? 'flex' : 'hidden'} w-[60vw] h-[100vh] 
-                bg-olive bg-opacity-75 absolute right-0 inset-y-0 justify-center items-center`}>
+                bg-olive bg-opacity-75  justify-center items-center`}>
                     <ul className='w-1/2 text-white md:text-[28px] font-karla font-bold flex flex-col gap-y-5 absolute bottom-80 md:bottom-96'>
                         <li>
                             <NavLink exact="true" to="/">

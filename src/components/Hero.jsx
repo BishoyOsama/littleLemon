@@ -5,7 +5,7 @@ import restaurantFood from '../assets/restauranfood.jpg'
 const Hero = () => {
   return (
     <>
-    <div className='absolute bg-olive w-[100vw] h-[21rem] lg:h-[32vh] xl:h-[45vh] left-0 -z-10'></div>
+    <div className='absolute bg-olive w-[100vw] h-[21rem] md:h-[18rem] lg:h-[26rem] left-0 -z-10'></div>
         <main className='w-full flex flex-col lg:flex-row justify-between items-center text-center lg:text-left z-10 lg:px-6 xl:px-0'>
             <div className='w-full lg:w-1/2 flex flex-col gap-y-5'>
                 <div className='flex flex-col gap-y-2'>
@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-col gap-y-5'>
-                    <p className='max-w-[30rem] lg:w-[60%] mx-auto lg:mx-0 text-white text-[0.8rem] lg:text-[1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <p className='max-w-[80%] lg:w-[60%] mx-auto lg:mx-0 text-white text-[0.8rem] lg:text-[1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Neque enim sunt eius nisi nihil dolorum, ullam ipsum culpa quae corrupti laboriosam ipsam error 
                     maiores obcaecati odio ratione consectetur unde placeat.</p>
                     <Link to={`/booking`}>
