@@ -1,9 +1,11 @@
 import React from 'react'
 import Hero from './Hero'
 import Offers from './Offers'
+import Testimonials from './Testimonials'
 import cake from '../assets/lemon dessert.jpg'
 import salad from '../assets/greek salad.jpg'
 import bruchetta from '../assets/bruchetta.svg'
+import About from './About'
 import Footer from './Footer'
 
 const Home = () => {
@@ -21,6 +23,17 @@ const Home = () => {
                 <Offers img={cake} name={'Lemon Cake'} price={'$15.00'}/>
             </div>
         </section>
+        <section className='mt-28 lg:mt-52 xl:mt-32 flex flex-col items-center justify-center gap-y-10 bg-gray-400 md:bg-none p-4 md:p-0'>
+          <div className='w-[100vw] absolute bg-gray-400 h-[60%] lg:h-[40%] left-0 -z-10 hidden md:block'></div>
+          <h1 className='font-semibold text-4xl font-serif'>Testimonials</h1>
+          <div className='flex flex-col gap-y-5 md:flex-row md:flex-wrap lg:flex-nowrap justify-center lg:gap-x-0 xl:gap-x-5'>
+            <Testimonials/>
+            <Testimonials/>
+            <Testimonials/>
+            <Testimonials/>
+          </div>
+        </section>
+        <About/>
     </>
   )
 }

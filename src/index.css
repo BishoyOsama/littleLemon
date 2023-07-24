@@ -7,3 +7,10 @@
 body{
     @apply overflow-x-hidden
 }
+
+.links > h3{
+    @apply font-serif text-olive font-semibold text-[1.1rem] 
+}
+.links > ul li{
+    @apply font-serif hover:text-lemon cursor-pointer text-gray-800 w-fit
+}
