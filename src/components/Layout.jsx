@@ -9,7 +9,7 @@ const Layout = () => {
         <div className='w-full'>
             <Navbar/>
         </div>
-        <div>
+        <div className='w-full h-[100vh] flex flex-col justify-between'>
             <Outlet/>
             <Footer/>
         </div>
